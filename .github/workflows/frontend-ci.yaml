@@ -2,10 +2,10 @@ name: Blog Frontend CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   lint-and-build:
     runs-on: ubuntu-latest
